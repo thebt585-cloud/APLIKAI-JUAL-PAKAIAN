@@ -1,16 +1,4 @@
 # APLIKAI-JUAL-PAKAIAN
-[Uploading aplikasi jual pakaian.html…]()
-<script>
-const adminPassword = "admin123"; // GANTI PASSWORD
-
-function adminLogin(){
-  let pass = prompt("Masukkan Password Admin:");
-  if(pass === adminPassword){
-    location.hash = "#admin";
-    location.reload();
-  }else{
-    alert("Password salah!");
-  }
 }
 </script>
 <button onclick="adminLogin()">🔐 Admin Login</button>
